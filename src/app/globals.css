@@ -135,4 +135,63 @@
         justify-content: center;
         gap: 20px;
       }
+      .container {
+        font-family: Arial, sans-serif;
+        color: #333;
+        text-align: center;
+        margin: 20px;
+      }
+
+      .header {
+        margin-bottom: 40px;
+      }
+
+      h1 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+
+      .shop-btn {
+        background-color: #000;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 20px;
+      }
+
+      .essentials {
+        margin-top: 40px;
+      }
+
+      .essentials-cards {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .card {
+        position: relative;
+      }
+
+      .card-btn {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #fff;
+        color: #000;
+        border: none;
+        padding: 8px 16px;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 20px;
+      }
   

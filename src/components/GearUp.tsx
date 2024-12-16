@@ -27,13 +27,13 @@ export default function Home() {
             <p>Men's 13cm (approx.) 2-in-1 Versatile Shorts</p>
           </div>
           <div className="gear-card">
-            <Image src="/women1.png" alt="Women's Top" width={200} height={250} />
+            <Image src="/g-3.png" alt="Women's Top" width={200} height={250} />
             <p>Nike Dri-FIT ADV Run Division</p>
             <p>₹ 2,295</p>
             <p>Women's Long-Sleeve Running Top</p>
           </div>
           <div className="gear-card">
-            <Image src="/g-3.png" alt="Women's Leggings" width={200} height={250} />
+            <Image src="/g-4.png" alt="Women's Leggings" width={200} height={250} />
             <p>Nike Fast</p>
             <p>₹ 3,795</p>
             <p>Women's Mid-Rise 7/8 Running Leggings</p>
@@ -45,8 +45,7 @@ export default function Home() {
       <section className="dont-miss">
         <h2>Don't Miss</h2>
         <div className="dont-miss-images">
-          <Image src="/dont-miss.png" alt="Nike Outfit 1" width={400} height={400} />
-          <Image src="/dont-miss.png" alt="Nike Outfit 2" width={400} height={400} />
+          <Image src="/dont-miss.png" alt="Nike Outfit 1" width={1000} height={1000} />
         </div>
       </section>
     </div>
