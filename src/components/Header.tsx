@@ -7,13 +7,13 @@ const Navbar = () => {
       {/* Logo Section */}
       <div className="flex items-center space-x-4">
         <Image
-          src="/logo-1.png" // Jordan logo image (replace with actual image path)
+          src="/logo-1.png" 
           alt="Jordan Logo"
           width={30}
           height={30}
         />
         <Image
-          src="/nike-logo.png" // Nike logo (replace with your image path)
+          src="/nike-logo.png" 
           alt="Nike Logo"
           width={50}
           height={20}

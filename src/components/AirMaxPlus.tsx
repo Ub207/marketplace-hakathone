@@ -12,7 +12,7 @@ const AirMaxPulse = () => {
       {/* Main Image */}
       <div className="relative w-full h-[500px]">
         <Image
-          src="/hero-image.png" // Ensure the image is in /public folder
+          src="/hero-image.png" 
           alt="Nike Air Max Pulse"
           layout="fill"
           objectFit="cover"
