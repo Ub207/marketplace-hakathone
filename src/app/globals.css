@@ -2,3 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+    .container {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .shoe-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .shoe-card {
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+
+    .shoe-card:hover {
+      transform: scale(1.05);
+    }
+
+    .shoe-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .shoe-category {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .shoe-price {
+      font-size: 16px;
+      color: #000;
+      font-weight: 600;
+      margin-top: 8px;
+    }
+  
