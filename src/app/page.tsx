@@ -15,7 +15,7 @@ export default function Home() {
   <Running />
   <GearUp />
   <Essential />
-  <NikeAirForce />
+  {/* <NikeAirForce /> */}
 
     </div>
   );
