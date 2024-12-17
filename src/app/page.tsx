@@ -3,7 +3,9 @@ import ShoeCard from "@/components/ShoeCard";
 import Running from "@/components/Running"
 import GearUp from "@/components/GearUp"
 import Essential from "@/components/Essential"
-import NikeAirForce from "@/components/NikeAirForce"
+import Order from "@/components/Order";
+import Last from "@/components/Las";
+import Cart from "@/components/Cart";
 
 
 export default function Home() {
@@ -15,7 +17,9 @@ export default function Home() {
   <Running />
   <GearUp />
   <Essential />
-  {/* <NikeAirForce /> */}
+  <Last />
+   <Cart /> 
+   <Order />
 
     </div>
   );
