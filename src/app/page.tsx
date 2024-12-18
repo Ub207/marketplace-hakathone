@@ -6,6 +6,7 @@ import Essential from "@/components/Essential"
 import Order from "@/components/Order";
 import Last from "@/components/Las";
 import Cart from "@/components/Cart";
+import Help from "@/components/Help";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
   <GearUp />
   <Essential />
   <Last />
+  <Help />
    <Cart /> 
    <Order />
 
