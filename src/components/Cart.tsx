@@ -23,7 +23,7 @@ export default function Cart() {
             {/* Item 1 */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pb-8 border-b">
               <Image
-                src="/order-1.png"
+                src="/p-1.png"
                 alt="Nike Dri-FIT ADV TechKnit Ultra"
                 width={120}
                 height={120}

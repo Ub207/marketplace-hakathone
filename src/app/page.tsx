@@ -1,12 +1,15 @@
+import React from "react";
 import AirMaxPulse from "@/components/AirMaxPlus";
 import ShoeCard from "@/components/ShoeCard";
 import Running from "@/components/Running"
 import GearUp from "@/components/GearUp"
 import Essential from "@/components/Essential"
-import Order from "@/components/Order";
-import Last from "@/components/Las";
+import Last from "@/components/Last";
+import SignUpForm from "@/components/SignUp";
 import Cart from "@/components/Cart";
-import Help from "@/components/Help";
+import LoginForm from "@/components/loginform";
+import Order from "@/components/Order";
+
 
 
 export default function Home() {
@@ -19,9 +22,12 @@ export default function Home() {
   <GearUp />
   <Essential />
   <Last />
-  <Help />
-   <Cart /> 
-   <Order />
+  <SignUpForm />
+  <Cart />
+  <LoginForm />
+  <Order />
+   
+  
 
     </div>
   );
