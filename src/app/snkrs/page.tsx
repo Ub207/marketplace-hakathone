@@ -23,7 +23,7 @@ export default function Cart() {
             {/* Item 1 */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pb-8 border-b">
               <Image
-                src="/product/c1.jpg"
+                src="/baig-1.png"
                 alt="Nike Dri-FIT ADV TechKnit Ultra"
                 width={120}
                 height={120}
@@ -53,7 +53,7 @@ export default function Cart() {
             {/* Item 2 */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pb-8 border-b">
               <Image
-                src="/product/c2.jpg"
+                src="/Frame-1.png"
                 alt="Nike Air Max 97 SE"
                 width={120}
                 height={120}
