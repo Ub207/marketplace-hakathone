@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
-import Footer from "@/components/FOOTER";
+import Footer from "@/components/Footer";
 import { CartProvider } from "@/context/CartContext";
 import { WishlistProvider } from "@/context/WishlistContext"; // Ensure this path is correct or update it to the correct path
 const geistSans = Geist({
