@@ -1,6 +1,7 @@
 "use client";
 import { useWishlist } from "@/context/WishlistContext";
 import Image from "next/image";
+import Link from "next/link";
 import { FaRegHeart } from "react-icons/fa6";
 import { RiDeleteBin5Line } from "react-icons/ri";
 import { useCart } from "@/context/CartContext";
@@ -143,12 +144,11 @@ export default function Cart() {
         </div>
 
         {/* Checkout Button */}
-        <Button
-          className="w-full rounded-full"
-          onClick={() => alert("Proceed to checkout")}
-        >
-          Checkout
-        </Button>
+        <Link href="/checkout">
+          <Button className="w-full rounded-full">
+            Member Checkout
+          </Button>
+        </Link>
       </div>
     </main>
   );

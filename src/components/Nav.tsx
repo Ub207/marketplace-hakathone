@@ -30,7 +30,7 @@ export default function Nav() {
         </div>
         <div className="flex md:gap-4 sm:gap-3 gap-2">
           <Link href="/locate" className="hover:text-gray-800">
-            Find Link Store
+            Find a Store
           </Link>
           <Link href="/help" className="hover:text-gray-800">
             Help

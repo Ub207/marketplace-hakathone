@@ -9,18 +9,7 @@ import Navigation from "./Navigation";
 export default function Hero() {
   return (
     <main>
-    {/* top */}
-    <section className="flex justify-center flex-col items-center bg-[#fafafa] m-4">
-      <div className="flex justify-center flex-col items-center pb-4">
-        <h3 className="text-xl text-black font-bold">Hello Nike App</h3>
-        <p className="text-sm text-gray-600">
-          <span>Download the app to access everything Nike.</span>{" "}
-          <Link href={"/product"}> Get Your Great</Link>
-        </p>
-      </div>
-    </section>
-  
-    <Image src={"/Hero.png"} alt={"shoes"} width={1344} height={700} />
+    <Image src={"/Hero.png"} alt={"shoes"} width={1344} height={700} className="w-full" />
   
     <div className="flex justify-center items-center flex-col p-10 text-center">
       <p className="text-sm">First Look</p>

@@ -24,38 +24,41 @@ export default function Joinn() {
           </div>
           <div className="flex flex-col justify-center items-center gap-4 mt-3">
             <input
-              type="Email"
-              placeholder="Email"
+              type="email"
+              placeholder="Email address"
               className="w-80 border shadow rounded-md p-2"
             />
             <input
               type="password"
-              placeholder="password"
+              placeholder="Password"
               className="w-80 border shadow rounded-md p-2"
             />
             <input
-              type="name"
+              type="text"
               placeholder="First Name"
               className="w-80 border shadow rounded-md p-2"
             />
             <input
-              type="name"
+              type="text"
               placeholder="Last Name"
               className="w-80 border shadow rounded-md p-2"
             />
             <input
-              type="dob"
+              type="date"
               placeholder="Date of Birth"
-              className="w-80 border shadow rounded-md p-2"
+              className="w-80 border shadow rounded-md p-2 text-gray-400"
             />
             <p className="text-[#BCBCBC] text-[12px]">
               Get a Nike Member Reward every year on your Birthday.
             </p>
-            <input
-              type="drop"
-              placeholder="Pakistan"
-              className="w-80 border shadow rounded-md p-2"
-            />
+            <select className="w-80 border shadow rounded-md p-2 text-gray-500 bg-white">
+              <option value="">Select Country/Region</option>
+              <option value="PK">Pakistan</option>
+              <option value="IN">India</option>
+              <option value="US">United States</option>
+              <option value="GB">United Kingdom</option>
+              <option value="AE">UAE</option>
+            </select>
             <div className="flex justify-between w-full gap-4">
               <div className="w-[50%] text-center bg-white rounded-lg shadow px-7 py-3">
                 Male

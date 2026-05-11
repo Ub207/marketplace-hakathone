@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_Figma__get_metadata",
+      "mcp__claude_ai_Figma__get_screenshot",
+      "Bash(python *)",
+      "Bash(curl -s -o \"D:\\\\nike-02\\\\marketplace-hakathone\\\\figma_screenshot.png\" \"https://www.figma.com/api/mcp/asset/5692a355-2377-472c-aaf0-42eb81f5f1ec\")",
+      "PowerShell(Get-ChildItem -Path \"D:\\\\nike-02\\\\marketplace-hakathone\" -Recurse -Depth 3 | Where-Object { !$_.PSIsContainer } | Select-Object -ExpandProperty FullName)",
+      "Bash(curl -s -o \"D:\\\\nike-02\\\\marketplace-hakathone\\\\home_figma.png\" \"https://www.figma.com/api/mcp/asset/44cba830-08bf-4b4f-a1fb-87b57337d06d\")",
+      "Bash(curl -s -o \"D:\\\\nike-02\\\\marketplace-hakathone\\\\products_figma.png\" \"https://www.figma.com/api/mcp/asset/5b88d641-9230-4324-bff6-99d14d7ec3de\")",
+      "Bash(New-Item -ItemType Directory -Path \"D:\\\\nike-02\\\\marketplace-hakathone\\\\src\\\\app\\\\checkout\" -Force)",
+      "Bash(Out-Null)",
+      "PowerShell(New-Item *)",
+      "Bash(npx tsc *)",
+      "Bash(node_modules\\\\.bin\\\\tsc --noEmit)",
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(npm list *)",
+      "Bash(Remove-Item -Recurse -Force node_modules\\\\react-icons)",
+      "Bash(npm run *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Test-Path \"D:\\\\nike-02\\\\marketplace-hakathone\\\\node_modules\\\\.bin\" ; \\(Get-ChildItem \"D:\\\\nike-02\\\\marketplace-hakathone\\\\node_modules\\\\.bin\" -ErrorAction SilentlyContinue\\).Count)",
+      "PowerShell(Get-ChildItem \"D:\\\\nike-02\\\\marketplace-hakathone\\\\node_modules\" -ErrorAction SilentlyContinue | Where-Object { $_.Name -in @\\('next','react','sanity','tailwindcss','typescript'\\) } | Select-Object Name)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(yarn *)"
+    ]
+  }
+}

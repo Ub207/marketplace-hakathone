@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
         <h3 className="text-sm font-semibold mb-4">FIND A STORE</h3>
         <ul className="space-y-2 text-sm">
-          <li><Link href="#" className="hover:underline">Become Link Member</Link></li>
+          <li><Link href="#" className="hover:underline">Become a Member</Link></li>
           <li><Link href="#" className="hover:underline">Sign Up for Email</Link></li>
           <li><Link href="#" className="hover:underline">Student Discounts</Link></li>
         </ul>

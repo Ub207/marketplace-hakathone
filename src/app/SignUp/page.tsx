@@ -18,7 +18,7 @@ export default function Login(){
                         <h1 className="font-bold text-xl ">NIKE</h1>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-4 mt-3">
-                        <input type="Email" placeholder="Email" className="w-80 border shadow rounded-md p-2" />
+                        <input type="email" placeholder="Email address" className="w-80 border shadow rounded-md p-2" />
                         <input type="password" placeholder="password" className="w-80 border shadow rounded-md p-2" />
                     </div>
                         
@@ -33,7 +33,7 @@ export default function Login(){
                         <p className="text-[#BCBCBC] text-[12px]">and <u>Terms of Use</u></p>
                     </div>
                 
-                   <Button className="w-80 ronded-sm my-6">SIGN IN</Button>
+                   <Button className="w-80 rounded-full my-6">SIGN IN</Button>
                     <p className="text-[#BCBCBC] text-[12px]">Not a Member <u className="text-black"><Link href={"/joinus"}>Join us?</Link></u></p>
                 </div>
             </section>
